@@ -22,7 +22,7 @@ public class BackgroundAcesso {
     
    public String executaManipulacao(){
         try{
-            URL urls = new URL("http://pibbarretos.com/series_knn/buscaSeries.php");
+            URL urls = new URL("url to get data from the database via php file on the server");
             HttpURLConnection httpURLConnection = (HttpURLConnection)urls.openConnection();
             httpURLConnection.setRequestMethod("GET");
             httpURLConnection.setDoOutput(true);
